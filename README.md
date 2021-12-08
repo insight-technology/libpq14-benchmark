@@ -8,7 +8,7 @@ Ubuntu20, g++9で確認
 ## 使い方
 1. ./setup.sh
 2. make
-3. ./bench postgres://{user}:{password}@{host}:{port}/{database} {件数(default 1M)} {テスト名(指定なしの場合はすべて)}
+3. ./bench postgres://{user}:{password}@{host}:{port}/{database} {件数(default 1000000)} {テスト名(指定なしの場合はすべて)}
 
 ### テスト名
 + simple / 値埋め込みSQLを同期呼び出し
