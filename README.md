@@ -1,6 +1,8 @@
 # libpq14-benchmark
 Benchmarking the insert speed of pipeline queries with PostgreSQL14 client library.
 
+https://www.insight-tec.com/tech-blog/20220118_postgresql/index.html のコード
+
 ## 環境
 Ubuntu20, g++9で確認  
 ビルド時に足りないライブラリは適宜インストールすること。(libreadlinve-dev, libssl-devなど)
